@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: red;
+    margin-top: 10%;
+
+}
+.buttons-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column: auto;
+    margin:3px;
+    padding:5px;
+    gap:3px;
+
+}
+.btn{
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 3px;
+    border:none;
+}
+.inp{
+    margin: 8px;
+    background-color: blue;
+
+
+}
